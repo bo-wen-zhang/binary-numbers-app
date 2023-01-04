@@ -13,9 +13,7 @@ html, body{
   align-items: center;
   justify-content: center;
 }
-body {
-  margin: 0;
-}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -34,6 +32,17 @@ code {
   text-align: center;
   width: 34px;
 }
+.columnLabel {
+  background: #fff;
+  font-family: "Arial";
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 25px;
+  padding: 2px;
+  text-align: center;
+  width: 30px;
+}
 
 .tile:hover {
   background: rgb(163, 163, 163);
@@ -41,6 +50,17 @@ code {
 
 .tile:active {
   background: rgb(127, 127, 127);
+}
+
+.result{
+  font-size: 24px;
+  font-family: "Arial";
+  font-weight: bold;
+  line-height: 34px;
+  height: 51px;
+  padding: 15px;
+  text-align: center;
+  width: 34px;
 }
 
 .parent {
@@ -51,8 +71,12 @@ code {
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display: flex;
-  align-items: center;
   justify-content: center;
   column-gap: 2px;
+  scale: 1;
+  flex-shrink: 0;
+}
+
+.scale {
+  scale: 0.5;
 }
