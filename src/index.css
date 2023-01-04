@@ -9,11 +9,15 @@
 
 html, body{
   height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+body
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -73,10 +77,8 @@ code {
   display: -webkit-flex;
   justify-content: center;
   column-gap: 2px;
-  scale: 1;
-  flex-shrink: 0;
 }
 
 .scale {
-  scale: 0.5;
+  transform: scale(3);
 }

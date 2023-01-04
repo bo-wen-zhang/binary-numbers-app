@@ -35,6 +35,7 @@ export default function App() {
 
   return (
     <React.Fragment>
+      <div className="scale">
       <div className="parent">
         <ColumnLabel value={decimalPlaceValues[0]}/>
         <ColumnLabel value={decimalPlaceValues[1]}/>
@@ -57,6 +58,7 @@ export default function App() {
       </div>
       <div className="parent">
         <Result result={decimalResult}/>
+      </div>
       </div>
 
     </React.Fragment>
