@@ -8,16 +8,17 @@
 } */
 
 html, body{
-  height: 100%;
-  width: 100%;
+  /*height: 100%;
+  width: 100%;*/
   margin: 0px;
   padding: 0px;
-  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  /*display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;*/
+  display: 'flex'
 }
-
-body
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -25,7 +26,6 @@ code {
 }
 
 .tile {
-  background: #fff;
   border: 2px solid rgb(0, 0, 0);
   border-radius: 5px;
   font-size: 24px;
@@ -37,7 +37,6 @@ code {
   width: 34px;
 }
 .columnLabel {
-  background: #fff;
   font-family: "Arial";
   font-size: 12px;
   font-weight: bold;
@@ -68,7 +67,6 @@ code {
 }
 
 .parent {
-  height: 100%;
   padding: 0;
   margin: 0;
   display: -webkit-box;
@@ -76,9 +74,12 @@ code {
   display: -ms-flexbox;
   display: -webkit-flex;
   justify-content: center;
+  width: 100%;
+  align-items: center;
   column-gap: 2px;
 }
 
+
 .scale {
-  transform: scale(3);
+  height: 100vh;
 }
