@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/binary-numbers-app/static/css/main.2249c3eb.css",
-    "main.js": "/binary-numbers-app/static/js/main.04964bdf.js",
+    "main.css": "/binary-numbers-app/static/css/main.a21cb317.css",
+    "main.js": "/binary-numbers-app/static/js/main.8623149a.js",
     "static/js/787.312777e8.chunk.js": "/binary-numbers-app/static/js/787.312777e8.chunk.js",
     "index.html": "/binary-numbers-app/index.html",
-    "main.2249c3eb.css.map": "/binary-numbers-app/static/css/main.2249c3eb.css.map",
-    "main.04964bdf.js.map": "/binary-numbers-app/static/js/main.04964bdf.js.map",
+    "main.a21cb317.css.map": "/binary-numbers-app/static/css/main.a21cb317.css.map",
+    "main.8623149a.js.map": "/binary-numbers-app/static/js/main.8623149a.js.map",
     "787.312777e8.chunk.js.map": "/binary-numbers-app/static/js/787.312777e8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2249c3eb.css",
-    "static/js/main.04964bdf.js"
+    "static/css/main.a21cb317.css",
+    "static/js/main.8623149a.js"
   ]
 }
