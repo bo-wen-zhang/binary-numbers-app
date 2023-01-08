@@ -1,7 +1,6 @@
 import React from 'react';
   
 export default function About() {
-    console.log("hi?")
     return (
         <div
             style={{
@@ -11,7 +10,7 @@ export default function About() {
             height: '50vh'
             }}
         >
-        <h1>Interactive way to learn about binary numbers</h1>
+        <h1>A project for me to learn web dev while teaching you about binary numbers.</h1>
         </div>
     );
 };

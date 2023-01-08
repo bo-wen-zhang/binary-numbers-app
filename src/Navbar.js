@@ -12,14 +12,17 @@ export default function Navbar() {
             <Nav>
                 <Bars />
                 <NavMenu>
-                    <NavLink to='/' activestyle="true">
+                    <NavLink to='/binary-numbers-app/' activestyle="true">
                         Home
                     </NavLink>
-                    <NavLink to='/about' activestyle="true">
+                    <NavLink to='/binary-numbers-app/about' activestyle="true">
                         About
                     </NavLink>
-                    <NavLink to='/positive-binary-integer' activestyle="true">
-                        Positive Binary Integer
+                    <NavLink to='/binary-numbers-app/unsigned-binary-int' activestyle="true">
+                        Unsigned Binary Integer
+                    </NavLink>
+                    <NavLink to='/binary-numbers-app/two-s-complement' activestyle="true">
+                        Two's Complement
                     </NavLink>
                 </NavMenu>
             </Nav>

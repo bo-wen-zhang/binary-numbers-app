@@ -2,18 +2,21 @@ import React, { useState } from 'react';
 import Navbar from './Navbar';
 import About from './About';
 import Home from './Home';
-import PositiveBinary from './PositiveBinary';
+import BinaryToDenary from './BinaryToDenary';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 export default function App() {
+  const unsignedPlaceValues = [128, 64, 32, 16, 8, 4, 2, 1];
+  const signedPlaceValues = [-128, 64, 32, 16, 8, 4, 2, 1];
   return (
 
     <Router>
     <Navbar />
     <Routes>
-      <Route path='/' exact element={<Home/>} />
-      <Route path='/about' element={<About/>} />
-      <Route path='/positive-binary-integer' element={<PositiveBinary/>} />
+      <Route path='/binary-numbers-app/' exact element={<Home/>} />
+      <Route path='/binary-numbers-app/about' element={<About/>} />
+      <Route path='/binary-numbers-app/unsigned-binary-int' element={<BinaryToDenary key="unsigned" decimalPlaceValues={unsignedPlaceValues}/>} />
+      <Route path='/binary-numbers-app/two-s-complement' element={<BinaryToDenary key="two-s-complement" decimalPlaceValues={signedPlaceValues}/>} />
     </Routes>
     </Router>
   );
