@@ -24,6 +24,9 @@ export default function Navbar() {
                     <NavLink to='/binary-numbers-app/two-s-complement' activestyle="true">
                         Two's Complement
                     </NavLink>
+                    <NavLink to='/binary-numbers-app/denary-to-binary' activestyle="true">
+                        Denary to Binary
+                    </NavLink>
                 </NavMenu>
             </Nav>
         </React.Fragment>

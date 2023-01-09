@@ -20,7 +20,7 @@ export default function ButtonRow({binaryValues, decimalPlaceValues, setBinaryVa
 
     const buttons = [];
     for (let i=0; i<8; i++) {
-        buttons.push(<Tile binaryValue={binaryValues[i]} onClickTile={() => handleClick(i)}/>)
+        buttons.push(<Tile key={i} binaryValue={binaryValues[i]} onClickTile={() => handleClick(i)}/>)
     }
 
     return (

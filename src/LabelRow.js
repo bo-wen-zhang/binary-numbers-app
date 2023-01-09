@@ -4,7 +4,7 @@ import ColumnLabel from './ColumnLabel';
 export default function LabelRow({decimalPlaceValues}) {
     const labels = [];
     for (let i=0; i<8; i++) {
-        labels.push(<ColumnLabel value={decimalPlaceValues[i]}/>)
+        labels.push(<ColumnLabel key={i} value={decimalPlaceValues[i]}/>)
     }
     return (
         <React.Fragment>
